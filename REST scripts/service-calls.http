@@ -1,0 +1,15 @@
+# Update this variable to the value returned from a call to Authentication/login
+@token_value = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJVc2VyMSIsImV4cCI6MTYwMTg1NzU5M30.YngythJkiE_6LC9vxDm7PdiNUxlbJ7enP31fwAyAqpU
+
+POST https://localhost:5001/Authentication/login
+Content-Type: application/json
+
+{
+	"username": "User1",
+	"password": "Password1"
+}
+
+###
+
+GET https://localhost:5001/Authentication/verify?username=User1&token={{token_value}}
+Content-Type: application/json
