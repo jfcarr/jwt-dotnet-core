@@ -1,3 +1,7 @@
 JwtLoginService/.vscode/*
 JwtLoginService/bin/*
 JwtLoginService/obj/*
+
+RestRunner/.vscode/*
+RestRunner/bin/*
+RestRunner/obj/*

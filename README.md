@@ -9,4 +9,4 @@ The running service provides two endpoints:
 * /Login (POST) - Generate a new token for a user.
 * /Verify (GET) - Check the validity of a generated token.
 
-Calls can be made to the running service by opening the service-calls.http file in Visual Studio Code.  It requires the REST Client extension.
+Calls can be made to the running service by opening the service-calls.http file in Visual Studio Code.  It requires the REST Client extension.  You can also do round-trip testing with the console application in the RestRunner directory.
